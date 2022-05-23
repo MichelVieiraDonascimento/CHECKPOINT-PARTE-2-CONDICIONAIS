@@ -60,7 +60,8 @@ console.log (valor_positivo_negativo (-11))
 
 // EXERCICIO 4
 
-function resultado_nota (nota){
+function resultado_nota (nota1, nota2){
+    let nota = (nota1 + nota2) /2
     if (nota == 10) {
         return ("Aprovado com Distinção")
 
@@ -72,4 +73,4 @@ function resultado_nota (nota){
     } 
 }
 
-console.log (resultado_nota (2))
+console.log (resultado_nota (2,9))
